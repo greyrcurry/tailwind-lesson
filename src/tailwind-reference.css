@@ -26,6 +26,7 @@
 /* ── SIZING ── */
 
 .w-fit         { width: fit-content; }
+.w-fill        { width: fill-content; }
 .w-80          { width: 20rem; }             /* 320px */
 .min-h-screen  { min-height: 100vh; }
 .min-h-\[380px\] { min-height: 380px; }     /* custom value via square brackets */
@@ -72,8 +73,8 @@
 .bg-surface    { background-color: var(--color-surface); }    /* → TOKEN: page background */
 .bg-card       { background-color: var(--color-card); }       /* → TOKEN: card background */
 .bg-white      { background-color: #fff; }
-.bg-btn-secondary { background-color: var(--color-btn-secondary); } /* → TOKEN: default button */
-.bg-btn-primary   { background-color: var(--color-btn-primary); }   /* → TOKEN: CTA button */
+.bg-action-secondary { background-color: var(--color-action-secondary); } /* → TOKEN: secondary action */
+.bg-action-primary   { background-color: var(--color-action-primary); }   /* → TOKEN: primary action */
 
 
 /* ── COLOURS (text) ── */
@@ -87,8 +88,8 @@
 /* ── HOVER STATES ── */
 /* Tailwind prefix "hover:" applies the style only on mouse hover */
 
-.hover\:bg-btn-secondary-hover:hover { background-color: var(--color-btn-secondary-hover); } /* → TOKEN */
-.hover\:bg-btn-primary-hover:hover   { background-color: var(--color-btn-primary-hover); }   /* → TOKEN */
+.hover\:bg-action-secondary-hover:hover { background-color: var(--color-action-secondary-hover); } /* → TOKEN */
+.hover\:bg-action-primary-hover:hover   { background-color: var(--color-action-primary-hover); }   /* → TOKEN */
 
 
 /* ── BORDERS & CORNERS ── */
